@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <title>Berry's Site</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(53, 53, 53);
+        color: white;
+
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(270deg, #08360b, #449231), rgb(10, 88, 10);
+        background-size: 400% 400%;
+        animation: gradientAnimation 15s ease infinite;
+    }
+
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+
+    .container{
+        background-color: rgb(19, 20, 20);
+        border: 5px solid rgb(10, 192, 10);
+        border-radius: 7px;
+        text-align: center;
+        padding: 25px;
+
+        position: absolute;
+        height: 75vh;
+        width: 55vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    a{
+        background-color: #18501a; 
+        border: none; 
+        color: white;
+        padding: 15px 32px; 
+        text-align: center; 
+        text-decoration: none;  
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        margin: 8px 2px; 
+        cursor: pointer; 
+        border-radius: 12px; 
+        transition: background-color 0.5s;
+        transition: font-size 0.5s;
+    }
+    
+    a:hover{
+        background-color: #20bb25;
+        font-size: 110%;
+    }
+
+    a img{
+       margin-right: 8px;
+       max-height: 30px;
+    }
+
+
+</style>
+
+
+<body>
+
+    <div class="container">
+        <h1>Seja bem vindo!</h1>
+        <br><hr><br>
+
+        <h3> Links Sociais </h3>
+
+        <!-- TWITCH -->
+        <a href="https://twitch.tv/berryyuki" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png"> 
+            - Live Twitch
+        </a>
+
+        <!-- Discord -->
+        <a href="https://discord.gg/FNPQgr4QpE" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png"> 
+            - Discord
+        </a>
+
+        <!-- Loja Canal -->
+        <a href="https://streamelements.com/berryyuki-5cf1a/store" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/1041/1041883.png"> 
+            - Lojinha do canal
+        </a>
+
+        <!-- Rankone -->
+        <a href="https://www.rankone.global/berry" target="_blank">
+            <img src="https://static.rankone.global/img/logo/logo.png"> 
+            - RankOne
+        </a>
+
+        <br>
+        <h3> Aba Monetária</h3>
+
+        <!-- PIX -->
+        <a href="https://livepix.gg/berryyuki" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2489/2489756.png"> 
+            - Donate (PIX)
+        </a>
+
+
+        <!-- SUB -->
+        <a href="https://twitch.tv/subs/berryyuki" target="_blank">
+            <img src="https://static-cdn.jtvnw.net/emoticons/v2/emotesv2_02f5522d28504fb6bbeebab2be07d0eb/default/dark/2.0"> 
+            - Apoie com seu sub
+        </a>
+
+        <br>
+        <h3></h3>
+
+        <!-- TWITCH -->
+        <a href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/2867/2867439.png"> 
+            - Patrocinio (caso algum dia tenha)
+        </a>
+
+        
+    </div>
+    
+    
+</body>
+</html>
